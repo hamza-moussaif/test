@@ -12,10 +12,10 @@
   font-family: "Poppins", sans-serif;
 }
 :root {
-  --main-color: #fe5b3d;
-  --second-color: #ffac38;
+  --main-color: #008000;
+  --second-color: #045D5D;
   --text-color: #444;
-  --gradient: linear-gradient(#fe5b3d, #ffac38);
+  --gradient: linear-gradient(#008000, #045D5D);
 }
 /*Custom Scroll Bar */
 html::-webkit-scrollbar {
@@ -83,7 +83,7 @@ header {
   font-weight: 500;
 }
 .header-btn .sign-in {
-  background: #474fa0;
+  background: #31906E;
   color: #ffff;
   border-radius: 0.5rem;
 }
@@ -92,7 +92,7 @@ header {
   background: var(--main-color);
 }
 .header-btn .logoutbtn {
-  background: #474fa0;
+  background: #31906E;
   color: #ffff;
   border-radius: 0.5rem;
   border: none;
@@ -108,7 +108,7 @@ header {
   width: 100%;
   min-height: 100vh;
   position: relative;
-  background: url(img/Car\ Website\ –\ 1@2x.png);
+  background: url(img/bmw.png);
   background-repeat: no-repeat;
   background-position: center right;
   background-size: cover;
@@ -189,7 +189,7 @@ header {
   flex: 1 1 7rem;
   padding: 10px 34px;
   border-radius: 0.5rem;
-  background: #474fa0;
+  background: #31906E;
   color: #fff;
   font-size: 1rem;
   font-weight: 500;
@@ -283,7 +283,7 @@ header {
 .services-container .box .btn {
   display: flex;
   justify-content: center;
-  background: #474fa0;
+  background: #31906E;
   color: #fff;
   padding: 10px;
   border-radius: 0.5rem;
@@ -312,7 +312,7 @@ header {
 }
 .about-text .btn {
   padding: 10px 20px;
-  background: #474fa0;
+  background: #31906E;
   color: #fff;
   border-radius: 0.5rem;
 }
@@ -359,7 +359,7 @@ header {
   color: var(--main-color);
 }
 .newsletter {
-  background: linear-gradient(to top, #fe5b3d, #ffac38);
+  background: linear-gradient(to top, #008000, #045D5D);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -382,7 +382,7 @@ header {
   border: none;
 }
 .newsletter .box .btn {
-  background: #474fa0;
+  background: #31906E;
   color: #fff;
   padding: 8px 20px;
   border-radius: 0.5rem;
